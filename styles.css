@@ -1,0 +1,148 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.header__title {
+    font-size: 1em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.1em;
+}
+
+.header__navigation_wrapper {
+    display: flex;
+}
+
+.header__navigation_btn {
+    margin: 0 0.5rem;
+    font-size: 1.5em;
+    font-family: 'Libre Baskerville', serif;
+    color: #000;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.header__navigation_btn:hover,
+.header__navigation_btn:focus {
+    outline: none;
+    color: #FCB8DF;
+}
+
+.header__navigation_btn.active {
+    color: #FCB8DF;
+}
+
+.main__wrapper {
+    width: 100%;
+    height: calc(100% - 200px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 100%
+}
+
+.main__container_image_wrapper {
+    margin: 2rem;
+}
+
+.main__container_info_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+    border-bottom: 1px solid rgba(199, 199, 199, 1);
+}
+
+.main__container_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%
+}
+
+.main__container_info_title {
+    margin: 0.5rem;
+    font-size: 1.5em;
+    font-family: 'Libre Baskerville', serif;
+    color: #000;
+}
+
+.main__container_info_desc {
+    margin: 1rem;
+    font-size: 0.8em;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.main__container_info_text {
+    margin: 1rem;
+    font-size: 0.8em;
+    font-family: 'Cairo', sans-serif;
+    color: #000;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.main__container_info_image_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%
+}
+
+.main__container_info_image {
+    width: 358px;
+    height: 358px;
+    border-radius: 50%;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.footer__container_text {
+    font-size: 0.8em;
+    font-family: 'Cairo', sans-serif;
+    font-weight: normal;
+    color: #000;
+}
