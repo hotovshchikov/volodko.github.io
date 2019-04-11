@@ -60,10 +60,14 @@ body {
 }
 
 .main__container {
-    display: flex;
+    display: none;
     justify-content: center;
     flex-flow: wrap;
     width: 100%
+}
+
+.main__container.active {
+    display: flex;
 }
 
 .main__container_image_wrapper {

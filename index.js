@@ -6,6 +6,7 @@ function openTab(evt, tagName) {
     tabcontent = document.getElementsByClassName("main__container");
     for (i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
+      tabcontent[i].className = tabcontent[i].className.replace(" active", "");
     }
   
     // Get all elements with class="tablinks" and remove the class "active"
